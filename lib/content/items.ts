@@ -1427,4 +1427,449 @@ export const contentItems: ContentItem[] = [
       },
     ],
   },
+
+  // ---------------------------------------------------------------- REVIEWS
+  {
+    slug: "are-paid-ai-writing-tools-worth-it-over-free-chatbots",
+    section: "reviews",
+    subtype: "review",
+    title: "Are Paid AI Writing Tools Worth It Over Free Chatbots?",
+    dek:
+      "Free chatbots write well. What a paid, purpose-built writing tool actually adds — and when the subscription doesn't earn its keep.",
+    category: "AI Tools",
+    author: "Priya Nair",
+    authorRole: "Staff Writer, AI & Emerging Tools",
+    publishedDate: "2026-10-09",
+    updatedDate: "2026-10-21",
+    readTime: "8 min read",
+    iconKey: "ai",
+    accent: "amber",
+    intro: [
+      "The awkward question hanging over every paid AI writing subscription is that free general-purpose chatbots already write fluent prose. The paid tools' case rests on everything around the writing: brand voice profiles, team workspaces, templates wired to your content pipeline, and consistency across dozens of pieces — not on better sentences.",
+      "The product card below uses placeholder/template specs to illustrate what to check — treat it as a format, not a recommendation, until you swap in a specific tested tool.",
+    ],
+    body: [
+      {
+        heading: "Raw writing quality is no longer the differentiator",
+        paragraphs: [
+          "Most dedicated writing tools are built on the same handful of foundation models that power the free chatbots, so single-document quality is usually comparable. If your workflow is occasional one-off drafts you edit heavily anyway, a free chatbot genuinely covers it and the review can end here.",
+        ],
+      },
+      {
+        heading: "Where paid tools earn their subscription: repeatability",
+        paragraphs: [
+          "The gap shows up at volume. A stored brand voice profile, reusable templates for your recurring formats, and shared workspaces that keep a team's outputs consistent are what stop piece #40 from drifting away from piece #1. Recreating that with a chatbot means re-pasting style instructions into every session and hoping everyone on the team uses the same ones.",
+          "SEO-oriented tools add another layer — keyword briefs, outline generation from search results, and content scoring — that general chatbots don't attempt in any structured way.",
+        ],
+      },
+      {
+        heading: "The costs the pricing page undersells",
+        paragraphs: [
+          "Watch for word or credit caps that force plan upgrades well below the usage the headline price implies, and check whether brand voice and team features are locked behind the higher tiers — the entry plan of a paid tool is often just a chatbot with templates.",
+        ],
+        list: [
+          "Count your real monthly output first — under ~10 pieces a month, free chatbots usually suffice",
+          "Verify brand voice and collaboration features exist on the tier you'd actually buy",
+          "Check the word/credit cap against your volume before trusting the headline price",
+          "Run the same brief through the paid tool and a free chatbot — judge the gap yourself",
+        ],
+      },
+    ],
+    product: {
+      name: "AI Writing Platform — Team Plan (template — replace with your tested product)",
+      tagline: "Illustrative example of what a tested AI writing tool review should verify",
+      summary:
+        "Template placeholder showing the format a tested review should follow: a stored brand voice verified against real published content, team workspace features on the reviewed tier, and honest notes on credit limits.",
+      pros: [
+        "Template: brand voice profile held up across 20+ test pieces",
+        "Template: shared templates kept multi-writer output consistent",
+        "Template: built-in plagiarism and repetition checks",
+      ],
+      cons: [
+        "Template: monthly word cap reached quickly at agency-level volume",
+        "Template: factual claims still required full human review",
+      ],
+      price: "$30–$60/user/month (template — update with real price)",
+      priceCheckedDate: TEMPLATE_CHECKED_DATE,
+      retailerLabel: "Visit official site (placeholder)",
+      retailerHref: TEMPLATE_RETAILER_HREF,
+      specs: [
+        { label: "Brand voice profiles", value: "Yes, from tier reviewed (template)" },
+        { label: "Team workspace", value: "Yes (template)" },
+        { label: "Monthly cap", value: "Word/credit limited (template)" },
+      ],
+      isTemplate: true,
+    },
+    verdict: {
+      summary:
+        "Paid AI writing tools are worth it for teams producing content at volume that must stay consistent — and usually not worth it for individuals who edit everything heavily anyway.",
+      buyIf: [
+        "Multiple people produce content that must sound like one brand",
+        "You publish enough volume that re-prompting a chatbot each time costs real hours",
+      ],
+      skipIf: [
+        "You write occasionally and rewrite drafts substantially — a free chatbot covers this",
+        "Your bottleneck is subject expertise or review capacity, not drafting speed",
+      ],
+      alternatives: ["A paid tier of a general chatbot with custom instructions, as a middle ground before a dedicated platform"],
+    },
+  },
+
+  {
+    slug: "is-a-paid-video-conferencing-plan-worth-it-for-a-small-team",
+    section: "reviews",
+    subtype: "review",
+    title: "Is a Paid Video Conferencing Plan Worth It for a Small Team?",
+    dek:
+      "Free tiers cover more than they used to. The paid upgrade is really about three specific limits — here's how to tell if you're hitting them.",
+    category: "Communication",
+    author: "Devin Park",
+    authorRole: "Senior Reviewer, Productivity & Cloud Tools",
+    publishedDate: "2026-09-30",
+    updatedDate: "2026-10-18",
+    readTime: "7 min read",
+    iconKey: "communication",
+    accent: "rose",
+    intro: [
+      "Free video conferencing tiers are genuinely good now, which makes the paid plan a harder sell than vendors admit. In practice the upgrade decision comes down to three limits: meeting length caps, recording with transcripts, and admin control over how your team's meetings behave. If none of those pinch, the free tier is the right answer.",
+    ],
+    body: [
+      {
+        heading: "The meeting length cap is the honest dividing line",
+        paragraphs: [
+          "Most free tiers cut group meetings off around the 40–60 minute mark. If your team's standing meetings routinely run longer and the \"let's rejoin\" shuffle has become a ritual, that recurring friction alone typically justifies the entry paid tier — it's the one limit you feel every single week.",
+        ],
+      },
+      {
+        heading: "Recording and transcripts are the sleeper feature",
+        paragraphs: [
+          "Cloud recording with searchable transcripts changes how a team uses meetings: people stop attending calls they only need the summary from. Free tiers usually offer local recording at best, with no transcription. If your team spans time zones, this feature matters more than video quality ever will.",
+        ],
+      },
+      {
+        heading: "What you can safely ignore on the pricing page",
+        paragraphs: [
+          "Webinar modes, large-event capacity, and branded waiting rooms drive the price of higher tiers and are irrelevant to a team of ten. Match the plan to the three limits above and resist the tier that exists for a use case you don't have.",
+        ],
+        list: [
+          "Track how often you actually hit the free meeting-length cap over two weeks",
+          "Check whether recording includes transcripts on the tier you'd buy — it often doesn't on entry plans",
+          "Confirm per-host vs. per-user pricing; small teams often only need one or two host licenses",
+          "Skip webinar-capable tiers unless you genuinely run external events",
+        ],
+      },
+    ],
+    product: {
+      name: "Video Conferencing — Business Starter Plan (template — replace with your tested product)",
+      tagline: "Illustrative example of the entry paid tier a small team should evaluate",
+      summary:
+        "Template placeholder for the entry business tier: uncapped meeting length, cloud recording with transcripts, and basic admin controls — the three things the free tier actually withholds.",
+      pros: [
+        "Template: no meeting length cap",
+        "Template: cloud recording with searchable transcripts",
+        "Template: admin console for default meeting settings",
+      ],
+      cons: [
+        "Template: transcript accuracy drops with crosstalk and accents",
+        "Template: per-user pricing adds up if everyone needs host rights",
+      ],
+      price: "$6–$15/user/month (template — update with real price)",
+      priceCheckedDate: TEMPLATE_CHECKED_DATE,
+      retailerLabel: "Visit official site (placeholder)",
+      retailerHref: TEMPLATE_RETAILER_HREF,
+      specs: [
+        { label: "Group meeting cap", value: "None (template)" },
+        { label: "Cloud recording", value: "Yes, with transcripts (template)" },
+        { label: "Participant limit", value: "100–150 (template)" },
+      ],
+      isTemplate: true,
+    },
+    verdict: {
+      summary:
+        "Upgrade when the length cap or the lack of transcripts costs your team time every week; stay free if your meetings are short and nobody re-watches them.",
+      buyIf: [
+        "Your recurring meetings regularly hit the free-tier time cap",
+        "A distributed team needs recordings and transcripts instead of attendance",
+      ],
+      skipIf: [
+        "Your meetings fit comfortably inside the free limits",
+        "You'd only use recording occasionally — local recording may be enough",
+      ],
+      alternatives: ["Paying for one or two host licenses rather than the whole team, if only a few people run long meetings"],
+    },
+  },
+
+  {
+    slug: "do-you-need-a-paid-email-marketing-plan-when-starting-out",
+    section: "reviews",
+    subtype: "review",
+    title: "Do You Need a Paid Email Marketing Plan When Starting Out?",
+    dek:
+      "Free email marketing tiers are generous on subscriber counts and stingy on everything else. What the paid plan actually unlocks, and when to wait.",
+    category: "Marketing Tools",
+    author: "Maya Oduya",
+    authorRole: "Staff Writer, Security & Privacy",
+    publishedDate: "2026-10-13",
+    updatedDate: "2026-10-22",
+    readTime: "7 min read",
+    iconKey: "marketing",
+    accent: "rose",
+    intro: [
+      "Email platforms advertise free tiers by subscriber count — \"free up to 1,000 contacts\" — but the number that actually constrains a new sender is rarely the contact cap. It's the features the free tier strips out: automation sequences, send-time control, and removing the platform's branding from your emails.",
+    ],
+    body: [
+      {
+        heading: "Automation is the feature that usually forces the upgrade",
+        paragraphs: [
+          "A welcome sequence — the automated series new subscribers get — is consistently the highest-engagement email most senders ever create, and it's the first thing free tiers restrict, often to a single email or nothing at all. If you're building a list seriously, this is typically the real reason to pay, long before you approach any contact cap.",
+        ],
+      },
+      {
+        heading: "Platform branding on your emails costs more than it seems",
+        paragraphs: [
+          "Free tiers commonly append the platform's logo or badge to every email. For a hobby newsletter it's harmless; for a business trying to look established, it quietly undercuts you with every send. Check which tier removes it — it's not always the first paid one.",
+        ],
+      },
+      {
+        heading: "Watch the pricing curve, not the entry price",
+        paragraphs: [
+          "Email platforms price by contact count, and the curve steepens: a plan that costs little at 500 contacts can cost many times more at 10,000. Since switching platforms later means migrating templates, automations, and deliverability reputation, the pricing page's higher rows matter more than the one you'd start on.",
+        ],
+        list: [
+          "Upgrade when you need a real welcome sequence — it usually outperforms every broadcast you'll send",
+          "Check which tier removes platform branding from your emails",
+          "Read the pricing at 5,000 and 10,000 contacts before committing, not just at your current size",
+          "Confirm you can export contacts and automation logic if you ever leave",
+        ],
+      },
+    ],
+    product: {
+      name: "Email Marketing Platform — Entry Paid Plan (template — replace with your tested product)",
+      tagline: "Illustrative example of the first paid tier a new sender should evaluate",
+      summary:
+        "Template placeholder for an entry paid plan: multi-step automation, platform branding removed, and audience segmentation — checked against a realistic contact-growth curve.",
+      pros: [
+        "Template: multi-step welcome and follow-up automations",
+        "Template: no platform badge on sent emails",
+        "Template: basic segmentation by signup source and engagement",
+      ],
+      cons: [
+        "Template: price climbs steeply past 5,000 contacts",
+        "Template: advanced A/B testing locked to a higher tier",
+      ],
+      price: "$10–$25/month at ~1,000 contacts (template — update with real price)",
+      priceCheckedDate: TEMPLATE_CHECKED_DATE,
+      retailerLabel: "Visit official site (placeholder)",
+      retailerHref: TEMPLATE_RETAILER_HREF,
+      specs: [
+        { label: "Automation", value: "Multi-step sequences (template)" },
+        { label: "Branding removal", value: "Yes, on this tier (template)" },
+        { label: "Pricing model", value: "By contact count (template)" },
+      ],
+      isTemplate: true,
+    },
+    verdict: {
+      summary:
+        "Stay on a free tier while you're testing whether you'll send consistently; upgrade the week you're ready to build a welcome sequence, because that's where the paid plan pays for itself.",
+      buyIf: [
+        "You're ready to set up automated sequences, not just occasional broadcasts",
+        "Platform branding on your emails undermines how you want to look",
+      ],
+      skipIf: [
+        "You haven't yet proven to yourself you'll send regularly — consistency first, tooling second",
+        "Your list is tiny and every email is genuinely one-off",
+      ],
+      alternatives: ["A simple newsletter-focused tool with flat pricing, if you only ever send one broadcast a week"],
+    },
+  },
+
+  // ------------------------------------------------------------ COMPARISONS
+  {
+    slug: "team-chat-vs-email-where-should-your-teams-communication-live",
+    section: "comparisons",
+    subtype: "comparison",
+    title: "Team Chat vs. Email: Where Should Your Team's Communication Live?",
+    dek:
+      "Chat promises speed, email promises order, and most teams run both badly. A practical split that plays to each one's strengths.",
+    category: "Communication",
+    author: "Devin Park",
+    authorRole: "Senior Reviewer, Productivity & Cloud Tools",
+    publishedDate: "2026-09-26",
+    updatedDate: "2026-10-16",
+    readTime: "6 min read",
+    iconKey: "communication",
+    accent: "rose",
+    intro: [
+      "The chat-versus-email debate is usually framed as old versus new, but they're built for different jobs: chat is optimized for fast, informal, ephemeral exchange; email for deliberate, self-contained, referenceable messages. Teams get into trouble not by picking the wrong tool, but by letting every conversation default to whichever app is already open.",
+    ],
+    body: [
+      {
+        heading: "How we evaluated this comparison",
+        paragraphs: [
+          "We compared the two channels on response expectations, findability of past decisions, interruption cost, and how well each handles external parties — the factors that determine whether communication actually lands, rather than subjective preference.",
+        ],
+      },
+      {
+        heading: "Where team chat wins",
+        paragraphs: [
+          "Chat excels at anything that benefits from low friction: quick questions, coordination during live work, and the social fabric remote teams otherwise lose. A question that would feel heavyweight as an email gets answered in chat in ninety seconds.",
+        ],
+      },
+      {
+        heading: "Where email wins",
+        paragraphs: [
+          "Email is better for anything someone will need to find in three months: decisions, commitments, anything involving people outside your organization. A chat scrollback is a terrible system of record — threads fragment, messages get edited, and search quality varies wildly between tools.",
+        ],
+      },
+    ],
+    comparison: {
+      optionALabel: "Team Chat",
+      optionBLabel: "Email",
+      methodology:
+        "Rows reflect the structural strengths of each channel for internal team use, not a comparison of specific products.",
+      rows: [
+        { criterion: "Response speed expectation", optionA: "Minutes — great for live coordination", optionB: "Hours to a day — protects focus" },
+        { criterion: "Findability months later", optionA: "Poor — threads fragment and scrollback decays", optionB: "Strong — self-contained and searchable" },
+        { criterion: "Interruption cost", optionA: "High unless notifications are tamed", optionB: "Low — processed on your schedule" },
+        { criterion: "External parties", optionA: "Weak — guest access is clunky", optionB: "Universal — works with anyone" },
+        { criterion: "Best for", optionA: "Quick questions and live coordination", optionB: "Decisions, commitments, and anything external" },
+      ],
+    },
+    verdict: {
+      summary:
+        "Run both, with an explicit rule: chat for coordination that expires, email for anything that must be findable later or involves outsiders — and write the rule down where the team can see it.",
+      buyIf: [
+        "Use chat as the default for internal, same-day coordination",
+        "Use email for decisions, external communication, and anything with a long shelf life",
+      ],
+      skipIf: ["Don't announce decisions only in chat — if it matters next quarter, it needs to live somewhere durable"],
+      alternatives: ["A lightweight wiki or docs tool as the system of record, with chat and email both pointing into it"],
+    },
+  },
+
+  {
+    slug: "email-marketing-platform-vs-newsletter-tool-which-do-you-need",
+    section: "comparisons",
+    subtype: "comparison",
+    title: "Email Marketing Platform vs. Newsletter Tool: Which Do You Need?",
+    dek:
+      "They both send email to a list, and the overlap ends there. How to tell which category you're actually shopping in.",
+    category: "Marketing Tools",
+    author: "Maya Oduya",
+    authorRole: "Staff Writer, Security & Privacy",
+    publishedDate: "2026-10-15",
+    updatedDate: "2026-10-22",
+    readTime: "6 min read",
+    iconKey: "marketing",
+    accent: "rose",
+    intro: [
+      "Full email marketing platforms and lightweight newsletter tools get lumped into one category, but they're built around different assumptions: platforms assume you're running campaigns, segments, and funnels; newsletter tools assume you're a writer sending one good email to everyone. Picking the wrong one means either paying for machinery you'll never touch or outgrowing your tool in a year.",
+    ],
+    body: [
+      {
+        heading: "How we evaluated this comparison",
+        paragraphs: [
+          "We compared the categories on automation depth, audience segmentation, pricing structure, and day-to-day publishing friction — the dimensions where the two genuinely diverge rather than the features both do adequately.",
+        ],
+      },
+      {
+        heading: "Where a full marketing platform wins",
+        paragraphs: [
+          "If you need behavior-triggered sequences, audience segments that update themselves, landing pages, and integration with a store or CRM, you're in platform territory. These tools treat email as one channel in a funnel, and their reporting reflects that — revenue attribution rather than just open rates.",
+        ],
+      },
+      {
+        heading: "Where a newsletter tool wins",
+        paragraphs: [
+          "If the product is the writing itself, newsletter tools are dramatically more pleasant: a clean editor, simple subscribe pages, built-in discovery or referral features, and often paid-subscription support out of the box. Flat or generous pricing beats contact-count pricing for a single growing list.",
+        ],
+      },
+    ],
+    comparison: {
+      optionALabel: "Marketing Platform",
+      optionBLabel: "Newsletter Tool",
+      methodology:
+        "Rows compare the two categories' typical shapes, not two specific named products.",
+      rows: [
+        { criterion: "Automation & funnels", optionA: "Deep — behavior-triggered sequences", optionB: "Basic — usually just a welcome email" },
+        { criterion: "Segmentation", optionA: "Fine-grained, self-updating segments", optionB: "One list, maybe simple tags" },
+        { criterion: "Writing & publishing experience", optionA: "Campaign builders — functional but heavy", optionB: "Clean editor built for writing" },
+        { criterion: "Monetizing the list directly", optionA: "Via your store or product funnel", optionB: "Built-in paid subscriptions" },
+        { criterion: "Pricing shape", optionA: "Climbs with contact count", optionB: "Flat or generous tiers" },
+      ],
+    },
+    verdict: {
+      summary:
+        "Choose by what the email is for: a funnel that sells something wants a marketing platform; a publication people read wants a newsletter tool.",
+      buyIf: [
+        "Choose a platform if email supports a store, product, or multi-step funnel",
+        "Choose a newsletter tool if the writing is the product and simplicity keeps you publishing",
+      ],
+      skipIf: ["Don't buy a full platform for a simple weekly newsletter — the unused machinery has a real monthly cost"],
+      alternatives: ["Starting on a newsletter tool and exporting your list to a platform later, once you genuinely have a funnel"],
+    },
+  },
+
+  {
+    slug: "general-ai-chatbot-vs-dedicated-writing-assistant-for-content-work",
+    section: "comparisons",
+    subtype: "comparison",
+    title: "General AI Chatbot vs. Dedicated Writing Assistant for Content Work",
+    dek:
+      "Same underlying models, very different products. Which one fits depends on how much structure your content work needs.",
+    category: "AI Tools",
+    author: "Priya Nair",
+    authorRole: "Staff Writer, AI & Emerging Tools",
+    publishedDate: "2026-10-19",
+    updatedDate: "2026-10-22",
+    readTime: "6 min read",
+    iconKey: "ai",
+    accent: "amber",
+    intro: [
+      "A general chatbot and a dedicated AI writing assistant frequently run on the same foundation models, so the comparison isn't about intelligence — it's about packaging. One gives you a blank conversation and infinite flexibility; the other gives you templates, stored brand context, and team workflow at the cost of that flexibility and a second subscription.",
+    ],
+    body: [
+      {
+        heading: "How we evaluated this comparison",
+        paragraphs: [
+          "We compared the two on consistency across many pieces, team collaboration, flexibility for novel tasks, and total cost — the dimensions where the packaging actually changes outcomes, since raw drafting ability is near-identical.",
+        ],
+      },
+      {
+        heading: "Where the general chatbot wins",
+        paragraphs: [
+          "Flexibility and breadth. A chatbot handles research, outlining, rewriting, coding help, and analysis in one place, and one subscription covers all of it. For an individual whose content work varies week to week, the blank-slate model is a feature, not a gap.",
+        ],
+      },
+      {
+        heading: "Where the dedicated assistant wins",
+        paragraphs: [
+          "Repeatable production. Stored brand voice, format templates, shared team workspaces, and content-pipeline integrations mean the tenth writer's fortieth piece still sounds like the brand. That consistency is exactly what's hard to maintain through copy-pasted chatbot prompts.",
+        ],
+      },
+    ],
+    comparison: {
+      optionALabel: "General Chatbot",
+      optionBLabel: "Writing Assistant",
+      methodology:
+        "Rows compare product categories built on similar foundation models, not two specific named tools.",
+      rows: [
+        { criterion: "Draft quality (single piece)", optionA: "Comparable", optionB: "Comparable" },
+        { criterion: "Consistency across many pieces", optionA: "Depends on prompt discipline", optionB: "Enforced by stored voice and templates" },
+        { criterion: "Team collaboration", optionA: "Minimal — personal sessions", optionB: "Shared workspaces and roles" },
+        { criterion: "Task flexibility", optionA: "Very high — anything in one tool", optionB: "Narrower — optimized for content" },
+        { criterion: "Cost shape", optionA: "One flat subscription", optionB: "Per-user pricing, often with usage caps" },
+      ],
+    },
+    verdict: {
+      summary:
+        "Individuals with varied work should default to a general chatbot; teams producing branded content at volume are the case where a dedicated assistant's structure pays for itself.",
+      buyIf: [
+        "Choose a chatbot if you work solo and your tasks vary beyond content production",
+        "Choose a dedicated assistant if a team ships branded content on a schedule",
+      ],
+      skipIf: ["Don't pay for both without a trial month proving the assistant's templates actually save you time over saved chatbot prompts"],
+      alternatives: ["A general chatbot plus a shared internal prompt library — the common middle ground before committing to a dedicated tool"],
+    },
+  },
 ];
