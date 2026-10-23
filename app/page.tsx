@@ -9,7 +9,7 @@ import { CtaBand } from "@/components/CtaBand";
 import { ContentCard } from "@/components/ContentCard";
 import { CategoryCard } from "@/components/CategoryCard";
 import { AnimatedSection } from "@/components/ui/AnimatedSection";
-import { contentItems, getFeatured, getTrending, getLatest } from "@/lib/content";
+import { contentItems, getFeatured, getTrending, getLatest, getBySection } from "@/lib/content";
 
 export const metadata: Metadata = {
   title: "NextWave Ledger — Smart Software Buying Guides & Reviews",
@@ -29,7 +29,10 @@ const categories = [
 export default function Home() {
   const featured = getFeatured(3);
   const trending = getTrending(4);
-  const latest = getLatest(6);
+  const latest = getLatest(9);
+  const recentArticles = [...getBySection("articles")]
+    .sort((a, b) => new Date(b.publishedDate).getTime() - new Date(a.publishedDate).getTime())
+    .slice(0, 6);
 
   const writerCount = new Set(contentItems.map((i) => i.author)).size;
   const categoryCount = new Set(contentItems.map((i) => i.category)).size;
@@ -88,36 +91,53 @@ export default function Home() {
       <Differentiators />
 
       <AnimatedSection as="section" className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
-        <h2 className="mb-2 text-2xl font-semibold text-foreground">Browse by category</h2>
-        <p className="mb-8 text-muted">Jump straight to the gear you&apos;re researching.</p>
-        <div className="grid gap-5 sm:grid-cols-2 md:grid-cols-3">
-          {categories.map((cat) => (
-            <CategoryCard
-              key={cat.label}
-              href={`/search?category=${encodeURIComponent(cat.label)}`}
-              label={cat.label}
-              description={cat.description}
-              iconKey={cat.iconKey}
-              accent={cat.accent}
-              count={contentItems.filter((i) => i.category === cat.label).length}
-            />
+        <div className="mb-8 flex items-end justify-between">
+          <div>
+            <h2 className="text-2xl font-semibold text-foreground">How-tos &amp; explainers</h2>
+            <p className="mt-1 text-muted">Practical walkthroughs and plain-language breakdowns.</p>
+          </div>
+          <Link href="/articles" className="hidden items-center gap-1 text-sm font-medium text-accent hover:text-accent-dark sm:flex">
+            All articles <ArrowRight className="h-3.5 w-3.5" />
+          </Link>
+        </div>
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {recentArticles.map((item, i) => (
+            <ContentCard key={item.slug} item={item} index={i} />
           ))}
         </div>
       </AnimatedSection>
 
       <AnimatedSection as="section" className="border-t border-border bg-surface">
         <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
-          <div className="mb-8 flex items-end justify-between">
-            <div>
-              <h2 className="text-2xl font-semibold text-foreground">Latest from NextWave Ledger</h2>
-              <p className="mt-1 text-muted">Freshly published and recently updated.</p>
-            </div>
-          </div>
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {latest.map((item, i) => (
-              <ContentCard key={item.slug} item={item} index={i} />
+          <h2 className="mb-2 text-2xl font-semibold text-foreground">Browse by category</h2>
+          <p className="mb-8 text-muted">Jump straight to the gear you&apos;re researching.</p>
+          <div className="grid gap-5 sm:grid-cols-2 md:grid-cols-3">
+            {categories.map((cat) => (
+              <CategoryCard
+                key={cat.label}
+                href={`/search?category=${encodeURIComponent(cat.label)}`}
+                label={cat.label}
+                description={cat.description}
+                iconKey={cat.iconKey}
+                accent={cat.accent}
+                count={contentItems.filter((i) => i.category === cat.label).length}
+              />
             ))}
           </div>
+        </div>
+      </AnimatedSection>
+
+      <AnimatedSection as="section" className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
+        <div className="mb-8 flex items-end justify-between">
+          <div>
+            <h2 className="text-2xl font-semibold text-foreground">Latest from NextWave Ledger</h2>
+            <p className="mt-1 text-muted">Freshly published and recently updated.</p>
+          </div>
+        </div>
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {latest.map((item, i) => (
+            <ContentCard key={item.slug} item={item} index={i} />
+          ))}
         </div>
       </AnimatedSection>
 

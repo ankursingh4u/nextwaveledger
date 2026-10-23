@@ -1238,4 +1238,193 @@ export const contentItems: ContentItem[] = [
       alternatives: ["A hybrid approach: a suite for commodity functions (email, docs) plus one best-of-breed tool for your single most important function"],
     },
   },
+
+  // ---------------------------------------------------------------- ARTICLES
+  {
+    slug: "how-to-cut-notification-overload-in-your-team-chat-app",
+    section: "articles",
+    subtype: "how-to",
+    title: "How to Cut Notification Overload in Your Team Chat App",
+    dek:
+      "Team chat is supposed to reduce interruptions, not multiply them. A handful of settings — most of them off by default — make the difference.",
+    category: "Communication",
+    author: "Priya Nair",
+    authorRole: "Staff Writer, AI & Emerging Tools",
+    publishedDate: "2026-10-12",
+    updatedDate: "2026-10-20",
+    readTime: "5 min read",
+    iconKey: "communication",
+    accent: "rose",
+    intro: [
+      "Most team chat apps ship with notification defaults tuned for engagement, not focus: every message in every joined channel pings you until you say otherwise. The fix isn't switching tools — nearly every major chat app has the controls you need, they're just buried in settings most people never open.",
+    ],
+    body: [
+      {
+        heading: "Default to channel-level muting, not app-level muting",
+        paragraphs: [
+          "Muting the whole app trades one problem for another: you stop getting interrupted, but you also miss the handful of messages that genuinely need you. The better pattern is to mute every channel by default and then explicitly unmute the two or three where same-day responses actually matter.",
+          "Most chat tools support this as a per-channel notification preference — look for options like \"nothing\" or \"mentions only\" in each channel's settings rather than the global notification panel.",
+        ],
+      },
+      {
+        heading: "Use keyword alerts instead of reading everything",
+        paragraphs: [
+          "Almost every team chat app lets you set keyword notifications — your name variants, your project's codename, a client's name. With those in place, you can safely mute busy channels knowing the app will still surface the messages that mention what you own.",
+        ],
+      },
+      {
+        heading: "Schedule notification hours and actually commit to them",
+        paragraphs: [
+          "A notification schedule (sometimes called quiet hours or do-not-disturb schedules) only works if your team knows it exists. Set it, mention it in your status or profile, and point urgent-after-hours traffic to a separate channel — a phone call or an on-call tool — so chat can stay asynchronous.",
+        ],
+        list: [
+          "Mute channels by default; unmute only the few that need same-day responses",
+          "Set keyword alerts for your name, projects, and clients before muting busy channels",
+          "Turn on a notification schedule and tell your team what the urgent-path alternative is",
+          "Review your joined channels monthly — leaving a channel is often better than muting it",
+        ],
+      },
+    ],
+  },
+
+  {
+    slug: "how-to-choose-budgeting-software-youll-still-use-in-three-months",
+    section: "articles",
+    subtype: "how-to",
+    title: "How to Choose Budgeting Software You'll Still Use in Three Months",
+    dek:
+      "Most budgeting apps get abandoned within weeks. The predictor isn't features — it's how much manual upkeep the app demands from you.",
+    category: "Finance Tools",
+    author: "Devin Park",
+    authorRole: "Senior Reviewer, Productivity & Cloud Tools",
+    publishedDate: "2026-10-14",
+    updatedDate: "2026-10-21",
+    readTime: "6 min read",
+    iconKey: "finance",
+    accent: "amber",
+    intro: [
+      "Budgeting software has a retention problem: the typical pattern is two enthusiastic weeks of categorizing transactions followed by quiet abandonment. The apps that survive past month three aren't the ones with the most features — they're the ones that match how much ongoing effort you're realistically willing to put in.",
+    ],
+    body: [
+      {
+        heading: "Be honest about your maintenance budget first",
+        paragraphs: [
+          "Budgeting tools sit on a spectrum from fully automatic (transactions import and categorize themselves, you just review) to fully manual (you enter every expense yourself). Manual entry builds more awareness but demands daily discipline; automatic import is low-effort but easier to ignore entirely.",
+          "Pick based on your track record, not your ambitions. If you've abandoned a budgeting app before, choose the more automatic option this time — an imperfect budget you actually look at beats a precise one you quit.",
+        ],
+      },
+      {
+        heading: "Bank connection quality is the real spec to check",
+        paragraphs: [
+          "For automatic tools, everything depends on the bank connection working reliably. Before subscribing, confirm the app supports your specific bank and card accounts, and search for recent user reports about connection drops — a budgeting app that loses its feed for a week at a time trains you to stop trusting it.",
+        ],
+      },
+      {
+        heading: "Look for a review ritual, not just reports",
+        paragraphs: [
+          "Charts and category breakdowns are table stakes. What actually changes behavior is a built-in review loop: a weekly summary email, a monthly \"here's what changed\" digest, or a quick triage screen for uncategorized transactions. Tools that pull you back in on a schedule survive; tools that wait for you to remember them don't.",
+        ],
+        list: [
+          "Match the tool's manual-vs-automatic effort level to your actual track record",
+          "Verify your specific bank and cards are supported before paying for a year",
+          "Prefer tools with a weekly or monthly review ritual built in",
+          "Ignore investment-tracking extras unless you'll genuinely use them — they're a common reason apps feel bloated",
+        ],
+      },
+    ],
+  },
+
+  {
+    slug: "what-to-know-before-trusting-an-ai-assistant-with-your-brand-voice",
+    section: "articles",
+    subtype: "explainer",
+    title: "What to Know Before Trusting an AI Assistant With Your Brand Voice",
+    dek:
+      "AI writing tools promise on-brand content at scale. Whether they deliver depends on inputs most teams never set up.",
+    category: "AI Tools",
+    author: "Priya Nair",
+    authorRole: "Staff Writer, AI & Emerging Tools",
+    publishedDate: "2026-10-16",
+    updatedDate: "2026-10-22",
+    readTime: "6 min read",
+    iconKey: "ai",
+    accent: "amber",
+    intro: [
+      "Every AI writing assistant now advertises some version of \"writes in your brand voice.\" The feature is real, but it's not magic — the output quality tracks almost entirely with how much structured guidance you feed the tool up front, and the marketing pages rarely explain what that setup actually involves.",
+    ],
+    body: [
+      {
+        heading: "Brand voice features are only as good as their inputs",
+        paragraphs: [
+          "Under the hood, a brand voice feature is usually a combination of style guidelines you write and example content you upload. Given five strong, representative writing samples and a clear description of tone, most modern assistants produce a credible imitation. Given nothing, they produce generic marketing copy with your company name inserted.",
+          "Budget a real afternoon for setup: pick your best-performing pieces as examples, write down the rules your team actually follows (words you avoid, how formal you are, how you handle claims), and test against content you've already published.",
+        ],
+      },
+      {
+        heading: "Factual reliability is a separate problem from tone",
+        paragraphs: [
+          "An assistant can nail your voice while confidently inventing statistics, product capabilities, or customer quotes. Treat voice matching and factual accuracy as two independent review steps — the second one always needs a human who knows the subject, regardless of how good the prose sounds.",
+        ],
+      },
+      {
+        heading: "Check what happens to the content you upload",
+        paragraphs: [
+          "Training a brand voice means uploading your content, and sometimes your strategy documents, to a third-party service. Before rolling out, read the data handling terms: whether your uploads are used to train the provider's models, who can access them, and what happens to them if you cancel. Business tiers often have meaningfully different terms than free tiers.",
+        ],
+        list: [
+          "Plan a setup afternoon: representative samples plus written tone rules, then test against published content",
+          "Keep human fact-checking as a separate review step — voice quality says nothing about accuracy",
+          "Read the data terms before uploading brand materials; free and business tiers often differ",
+          "Re-check output monthly — model updates can shift tone without warning",
+        ],
+      },
+    ],
+  },
+
+  {
+    slug: "why-your-marketing-emails-land-in-spam-and-how-to-fix-it",
+    section: "articles",
+    subtype: "troubleshooting",
+    title: "Why Your Marketing Emails Land in Spam — and How to Fix It",
+    dek:
+      "Deliverability problems usually aren't about your content. Three technical records and one list-hygiene habit fix most of it.",
+    category: "Marketing Tools",
+    author: "Maya Oduya",
+    authorRole: "Staff Writer, Security & Privacy",
+    publishedDate: "2026-10-18",
+    updatedDate: "2026-10-22",
+    readTime: "7 min read",
+    iconKey: "marketing",
+    accent: "rose",
+    intro: [
+      "When a campaign's open rate suddenly drops, the instinct is to blame subject lines. In practice, most deliverability problems trace back to missing authentication records or a decaying contact list — both fixable, and both things your email marketing tool can help diagnose if you know where to look.",
+    ],
+    body: [
+      {
+        heading: "Start with authentication: SPF, DKIM, and DMARC",
+        paragraphs: [
+          "Major mailbox providers now effectively require bulk senders to authenticate their domain with SPF, DKIM, and DMARC records. Every mainstream email marketing platform has a domain authentication page that generates the exact DNS records to add — if you've never completed that setup and you're sending from your own domain, this is almost certainly your biggest problem.",
+          "After adding the records, use your platform's verification check and send a test to accounts at a few major providers. Authentication failures are visible in the message headers if you want to confirm the fix directly.",
+        ],
+      },
+      {
+        heading: "List decay quietly poisons your sender reputation",
+        paragraphs: [
+          "Addresses go stale: people change jobs, abandon inboxes, and old addresses get converted into spam traps. Repeatedly mailing dead addresses raises your bounce rate and tells mailbox providers your list is low quality. Pruning contacts who haven't opened anything in six to twelve months typically improves deliverability more than any content change.",
+        ],
+      },
+      {
+        heading: "Sudden volume spikes look like spam, because they usually are",
+        paragraphs: [
+          "Jumping from a few hundred emails a month to tens of thousands overnight is a classic spam pattern, and providers throttle it. If you're moving to a bigger list or a new sending domain, ramp volume gradually over a few weeks so your sending reputation can keep up.",
+        ],
+        list: [
+          "Complete SPF, DKIM, and DMARC setup in your email platform's domain settings — this is the highest-impact fix",
+          "Prune or re-confirm contacts with no opens in 6–12 months",
+          "Ramp up sending volume gradually after list growth or a domain change",
+          "Watch bounce rate per campaign — a rising trend is an early warning, not noise",
+        ],
+      },
+    ],
+  },
 ];
