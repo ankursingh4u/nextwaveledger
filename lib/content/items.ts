@@ -19,6 +19,7 @@ export const contentItems: ContentItem[] = [
     updatedDate: "2026-10-05",
     readTime: "8 min read",
     iconKey: "security",
+    photoKey: "security",
     accent: "indigo",
     featured: true,
     intro: [
@@ -311,6 +312,7 @@ export const contentItems: ContentItem[] = [
     updatedDate: "2026-10-02",
     readTime: "6 min read",
     iconKey: "security",
+    photoKey: "security-4",
     accent: "indigo",
     intro: [
       "Most people who abandon a password manager don't do it because the security was bad — they do it because the day-to-day friction of using it was higher than just letting the browser remember passwords. Choosing well means weighing a few practical specs most comparison charts skip.",
@@ -364,7 +366,7 @@ export const contentItems: ContentItem[] = [
     updatedDate: "2026-09-28",
     readTime: "5 min read",
     iconKey: "security",
-    photoKey: "security-2",
+    photoKey: "security-5",
     accent: "indigo",
     trending: false,
     intro: [
@@ -412,6 +414,7 @@ export const contentItems: ContentItem[] = [
     updatedDate: "2026-10-08",
     readTime: "7 min read",
     iconKey: "productivity",
+    photoKey: "productivity",
     accent: "teal",
     intro: [
       "Most \"ultimate freelancer stack\" lists are really affiliate link lists. This one is organized around the specific problems freelancers actually have: getting paid on time, keeping client work and personal files separate, and not losing a day to a tool that's more complex than the job requires.",
@@ -548,6 +551,7 @@ export const contentItems: ContentItem[] = [
     updatedDate: "2026-10-01",
     readTime: "6 min read",
     iconKey: "communication",
+    photoKey: "communication",
     accent: "rose",
     intro: [
       "Video call issues are frustrating partly because the symptoms look similar across very different causes — a frozen screen could mean a bandwidth problem, a CPU problem, or a server-side issue with the call provider. This guide walks through the actual causes in the order most likely to fix the problem fastest.",
@@ -607,6 +611,7 @@ export const contentItems: ContentItem[] = [
     updatedDate: "2026-10-14",
     readTime: "7 min read",
     iconKey: "cloud",
+    photoKey: "cloud",
     accent: "sky",
     intro: [
       "Cloud storage marketing leans heavily on a single storage-capacity number, but real-world usefulness depends on several other specs that are easy to overlook until you're already locked into a plan. Here's what to check before you buy.",
@@ -681,6 +686,7 @@ export const contentItems: ContentItem[] = [
     updatedDate: "2026-10-11",
     readTime: "6 min read",
     iconKey: "marketing",
+    photoKey: "marketing",
     accent: "rose",
     intro: [
       "Budget email marketing tools are frequently marketed on subscriber-count limits and template counts, which have little relationship to whether your emails actually get read. The specs below are ranked by how much they actually affect results, not by how prominently they're marketed.",
@@ -738,6 +744,7 @@ export const contentItems: ContentItem[] = [
     updatedDate: "2026-10-20",
     readTime: "7 min read",
     iconKey: "ai",
+    photoKey: "ai",
     accent: "amber",
     featured: true,
     intro: [
@@ -902,7 +909,7 @@ export const contentItems: ContentItem[] = [
     updatedDate: "2026-10-18",
     readTime: "7 min read",
     iconKey: "security",
-    photoKey: "security-3",
+    photoKey: "security-6",
     accent: "indigo",
     trending: true,
     intro: [
@@ -973,6 +980,7 @@ export const contentItems: ContentItem[] = [
     updatedDate: "2026-10-19",
     readTime: "7 min read",
     iconKey: "finance",
+    photoKey: "finance",
     accent: "amber",
     intro: [
       "A spreadsheet template can produce something that looks like an invoice. The real case for a dedicated invoicing app is everything that happens after you hit send — reminders, payment tracking, and a clean record if a client disputes a payment later.",
@@ -1018,6 +1026,7 @@ export const contentItems: ContentItem[] = [
     updatedDate: "2026-10-19",
     readTime: "6 min read",
     iconKey: "cloud",
+    photoKey: "cloud-3",
     accent: "sky",
     intro: [
       "Free cloud storage tiers have grown more generous over the past few years, which makes it worth checking what a paid backup plan actually still improves before assuming you need one.",
@@ -1065,6 +1074,7 @@ export const contentItems: ContentItem[] = [
     updatedDate: "2026-10-18",
     readTime: "6 min read",
     iconKey: "productivity",
+    photoKey: "productivity-4",
     accent: "teal",
     intro: [
       "A spreadsheet is infinitely flexible, which is exactly why it works well for a small team and poorly for a larger one — that same flexibility becomes inconsistency once more than a couple of people are editing it without a shared structure.",
@@ -1127,7 +1137,7 @@ export const contentItems: ContentItem[] = [
     updatedDate: "2026-10-19",
     readTime: "6 min read",
     iconKey: "cloud",
-    photoKey: "cloud-2",
+    photoKey: "cloud-4",
     accent: "sky",
     intro: [
       "Cloud storage and local backup (an external drive, a local server) both protect against data loss, but against different causes of it. Treating either one as a complete solution on its own leaves a specific, predictable gap.",
@@ -1189,7 +1199,7 @@ export const contentItems: ContentItem[] = [
     updatedDate: "2026-10-20",
     readTime: "6 min read",
     iconKey: "productivity",
-    photoKey: "productivity-2",
+    photoKey: "productivity-5",
     accent: "teal",
     trending: true,
     intro: [
@@ -1254,6 +1264,7 @@ export const contentItems: ContentItem[] = [
     updatedDate: "2026-10-20",
     readTime: "5 min read",
     iconKey: "communication",
+    photoKey: "communication-2",
     accent: "rose",
     intro: [
       "Most team chat apps ship with notification defaults tuned for engagement, not focus: every message in every joined channel pings you until you say otherwise. The fix isn't switching tools — nearly every major chat app has the controls you need, they're just buried in settings most people never open.",
@@ -1301,6 +1312,7 @@ export const contentItems: ContentItem[] = [
     updatedDate: "2026-10-21",
     readTime: "6 min read",
     iconKey: "finance",
+    photoKey: "finance-2",
     accent: "amber",
     intro: [
       "Budgeting software has a retention problem: the typical pattern is two enthusiastic weeks of categorizing transactions followed by quiet abandonment. The apps that survive past month three aren't the ones with the most features — they're the ones that match how much ongoing effort you're realistically willing to put in.",
@@ -1348,6 +1360,7 @@ export const contentItems: ContentItem[] = [
     updatedDate: "2026-10-22",
     readTime: "6 min read",
     iconKey: "ai",
+    photoKey: "ai-2",
     accent: "amber",
     intro: [
       "Every AI writing assistant now advertises some version of \"writes in your brand voice.\" The feature is real, but it's not magic — the output quality tracks almost entirely with how much structured guidance you feed the tool up front, and the marketing pages rarely explain what that setup actually involves.",
@@ -1395,6 +1408,7 @@ export const contentItems: ContentItem[] = [
     updatedDate: "2026-10-22",
     readTime: "7 min read",
     iconKey: "marketing",
+    photoKey: "marketing-2",
     accent: "rose",
     intro: [
       "When a campaign's open rate suddenly drops, the instinct is to blame subject lines. In practice, most deliverability problems trace back to missing authentication records or a decaying contact list — both fixable, and both things your email marketing tool can help diagnose if you know where to look.",
@@ -1443,6 +1457,7 @@ export const contentItems: ContentItem[] = [
     updatedDate: "2026-10-21",
     readTime: "8 min read",
     iconKey: "ai",
+    photoKey: "ai-3",
     accent: "amber",
     intro: [
       "The awkward question hanging over every paid AI writing subscription is that free general-purpose chatbots already write fluent prose. The paid tools' case rests on everything around the writing: brand voice profiles, team workspaces, templates wired to your content pipeline, and consistency across dozens of pieces — not on better sentences.",
@@ -1529,6 +1544,7 @@ export const contentItems: ContentItem[] = [
     updatedDate: "2026-10-18",
     readTime: "7 min read",
     iconKey: "communication",
+    photoKey: "communication-3",
     accent: "rose",
     intro: [
       "Free video conferencing tiers are genuinely good now, which makes the paid plan a harder sell than vendors admit. In practice the upgrade decision comes down to three limits: meeting length caps, recording with transcripts, and admin control over how your team's meetings behave. If none of those pinch, the free tier is the right answer.",
@@ -1613,6 +1629,7 @@ export const contentItems: ContentItem[] = [
     updatedDate: "2026-10-22",
     readTime: "7 min read",
     iconKey: "marketing",
+    photoKey: "marketing-3",
     accent: "rose",
     intro: [
       "Email platforms advertise free tiers by subscriber count — \"free up to 1,000 contacts\" — but the number that actually constrains a new sender is rarely the contact cap. It's the features the free tier strips out: automation sequences, send-time control, and removing the platform's branding from your emails.",
@@ -1698,6 +1715,7 @@ export const contentItems: ContentItem[] = [
     updatedDate: "2026-10-16",
     readTime: "6 min read",
     iconKey: "communication",
+    photoKey: "communication-4",
     accent: "rose",
     intro: [
       "The chat-versus-email debate is usually framed as old versus new, but they're built for different jobs: chat is optimized for fast, informal, ephemeral exchange; email for deliberate, self-contained, referenceable messages. Teams get into trouble not by picking the wrong tool, but by letting every conversation default to whichever app is already open.",
@@ -1761,6 +1779,7 @@ export const contentItems: ContentItem[] = [
     updatedDate: "2026-10-22",
     readTime: "6 min read",
     iconKey: "marketing",
+    photoKey: "marketing-4",
     accent: "rose",
     intro: [
       "Full email marketing platforms and lightweight newsletter tools get lumped into one category, but they're built around different assumptions: platforms assume you're running campaigns, segments, and funnels; newsletter tools assume you're a writer sending one good email to everyone. Picking the wrong one means either paying for machinery you'll never touch or outgrowing your tool in a year.",
@@ -1824,6 +1843,7 @@ export const contentItems: ContentItem[] = [
     updatedDate: "2026-10-22",
     readTime: "6 min read",
     iconKey: "ai",
+    photoKey: "ai-4",
     accent: "amber",
     intro: [
       "A general chatbot and a dedicated AI writing assistant frequently run on the same foundation models, so the comparison isn't about intelligence — it's about packaging. One gives you a blank conversation and infinite flexibility; the other gives you templates, stored brand context, and team workflow at the cost of that flexibility and a second subscription.",
